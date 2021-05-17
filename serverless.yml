@@ -43,10 +43,10 @@ functions:
     handler: index.handler
     events:
       - http: 'GET /users/{proxy+}'
-    addUser:
-      handler: index.handler
-      events:
-        - http: 'POST /users'
+  addUser:
+    handler: index.handler
+    events:
+      - http: 'POST /users'
 
 resources:
   Resources:
