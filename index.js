@@ -41,7 +41,7 @@ app.post('/users', (req, res) => {
   }
 
   const params = {
-    TableName = USERS_TABLE,
+    TableName: USERS_TABLE,
     Item: {
       userId,
       name
