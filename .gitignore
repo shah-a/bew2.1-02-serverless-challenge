@@ -1,4 +1,4 @@
 node_modules/
 .serverless
-serverless.yml
+.dynamodb
 .DS_Store
